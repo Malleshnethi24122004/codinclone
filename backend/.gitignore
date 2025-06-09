@@ -1,0 +1,33 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+
+# Environment variables
+.env
+
+# Django specific
+db.sqlite3
+*.log
+
+# VS Code
+.vscode/
+
+# Pytest and coverage
+htmlcov/
+.coverage
+.tox/
+.nox/
+*.cover
+*.py,cover
+
+# Migrations (optional if you want to track them)
+# **/*.pyc
+# **/migrations/
+
+# System
+.DS_Store
+Thumbs.db
